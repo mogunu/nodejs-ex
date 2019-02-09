@@ -23,11 +23,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mogunu/nodejs-ex.git"
+    "url": "http://github.com/sclorg/nodejs-ex.git"
   },
-  "author": "Mohan <mogunu@gmail.com>",
+  "author": "Steve Speicher <sspeiche@gmail.com>",
   "license": "CC-BY-1.0",
   "bugs": {
-    "url": "https://github.com/mogunu/nodejs-ex/issues"
+    "url": "http://github.com/sclorg/nodejs-ex/issues"
   },
-  "homepage": "https://github.com/mogunu/nodejs-ex"
+  "homepage": "http://github.com/sclorg/nodejs-ex"
+}
