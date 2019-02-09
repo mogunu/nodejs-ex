@@ -211,7 +211,8 @@ pre {
   white-space: pre-wrap;
   word-break: normal;
   word-wrap: break-word;
-  overflow: auto;
+   <h1>Mohan Umashankar</h1>
+ overflow: auto;
   font-family: Menlo,Monaco,"Liberation Mono",Consolas,monospace !important;
 }
 
@@ -220,8 +221,10 @@ pre {
 </head>
 <body onload = "JavaScript:AutoRefresh(5000);">
    <p>This page will refresh every 5 seconds.</p>
+  <h1>The is the simple project for demoing Data refresh capabilities</h1>
   <h1>Mohan Umashankar</h1>
-                <h2>Request information</h2>
+ 
+ <h3>Request information</h3>
                 <p>Page view count:
                 <% if (pageCountMessage) { %>
                    <span class="code" id="count-value"><%=pageCountMessage%></span>
@@ -231,6 +234,7 @@ pre {
                           <tr><td>Type:</td><td><%= dbInfo.type %></td></tr>
                           <tr><td>URL:</td><td><%= dbInfo.url %></td></tr>
                       </table>
+                      
                     </div>
                 <% } else { %>
                    <span class="code" id="count-value">No database configured</span>
